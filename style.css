@@ -4,16 +4,37 @@ body{
     align-items: center;
     background: url(1.jpg);
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
+    background-attachment:fixed;
+    margin: auto;
 }
-.z1{
+
+
+@keyframes mymove {
+        0% {box-shadow:0 0 10px 10px red }
+        10% {box-shadow:0 0 10px 10px rgb(255, 102, 0) }
+        20% {box-shadow:0 0 10px 10px orange }
+        30% {box-shadow:0 0 10px 10px yellow }
+        40% {box-shadow:0 0 10px 10px rgb(60, 255, 0) }
+        50% {box-shadow:0 0 10px 10px green }
+        60% {box-shadow:0 0 10px 10px rgb(0, 140, 255) }
+        70% {box-shadow:0 0 10px 10px blue }
+        80% {box-shadow:0 0 10px 10px rgb(162, 0, 255) }
+        90% {box-shadow:0 0 10px 10px rgb(255, 0, 242) }
+        100% {box-shadow:0 0 10px 10px  rgb(255, 0, 128)}
+        
+        
+    }
+
+#z1{
+    
+   
+    animation: mymove 3s infinite;
     width: 420px;
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.267);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.315);
-    color: #fff;
+    
     border-radius: 10px;
     padding: 30px 40px;
     margin: 200px 170px;
@@ -127,3 +148,11 @@ body{
 
 }
 
+.z2{
+ 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  
+}
