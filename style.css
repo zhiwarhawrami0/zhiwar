@@ -30,7 +30,8 @@ body{
     
    
     animation: mymove 3s infinite;
-    width: 420px;
+    width: 700px;
+    height: 1200px;
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.267);
     backdrop-filter: blur(20px);
@@ -52,6 +53,7 @@ body{
     height: 50px;
     margin: 30px 0;
     right: 5px;
+}
 }
 .input-box input{
     width: 100%;
@@ -94,11 +96,11 @@ body{
 }
 .zhiwar img{
     display: block;
-   width: 250px;
+   width: 550px;
 }
 .zhiwar { 
-     width: 250px;
-    height: 250px;
+     width: 550px;
+    height: 550px;
     overflow:hidden;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
@@ -111,14 +113,16 @@ body{
    
 }
 .icons{
-    margin: 0 15%;
+    margin: 0 -5%;
+    
+    width: 700px;
 }
 .shadow{
     margin-left: auto;
     margin-right: 130px;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 550px;
+    height: 550px;
     position: relative;
     cursor: pointer;
 }
@@ -145,7 +149,8 @@ body{
 }
 .kuku{
     color: black;
-
+    font-size: 50px;
+    
 }
 
 .z2{
@@ -155,4 +160,16 @@ body{
     margin: auto;
 
   
+}
+
+.kuku1{
+    color: black;
+    font-size: 39px;
+    
+}
+
+.kuku2{
+    color: black;
+    font-size: 55px;
+    margin-left: 235px;
 }
