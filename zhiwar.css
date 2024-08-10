@@ -1,0 +1,283 @@
+body{
+
+    background-image: url(1.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+@keyframes kuku{
+
+    0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 10px 10px white }
+    20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 10px 10px white }
+    40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 10px 10px white }
+    60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 10px 10px white}
+    80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 10px 10px white }
+    100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+
+
+}
+
+
+.a1{
+
+    margin:400px 350px;
+    animation: kuku 3s infinite;
+    font-size: 30px;
+    border: 3px solid white ;
+    border-radius: 25px;
+    width: 760px;
+    height: 1150px;
+    backdrop-filter: blur(25px);
+
+
+}
+
+.a2{
+
+    margin: 0 -5%;
+    color: rgba(0, 0, 0, 0);
+
+
+}
+
+
+@keyframes zhika{
+
+    0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 10px 10px rgb(0, 155, 255)  }
+    60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+
+
+}
+
+
+.zh1{
+ 
+    font-size: 65px;
+    background-color: rgb(0, 155, 255);
+    animation: zhika 3s infinite;  
+    color: white;
+    
+    border-radius: 13px;
+
+
+}
+
+
+
+@keyframes zhiwar{
+
+    0% {box-shadow :0 0 10px 10px white }
+    10% {box-shadow :0 0 10px 10px white }
+    20% {box-shadow :0 0 10px 10px white }
+    30% {box-shadow :0 0 10px 10px white }
+    40% {box-shadow :0 0 10px 10px white }
+    50% {box-shadow :0 0 10px 10px white }
+    60% {box-shadow :0 0 10px 10px white }
+    70% {box-shadow :0 0 10px 10px white}
+    80% {box-shadow :0 0 10px 10px white }
+    90% {box-shadow :0 0 10px 10px white }
+    100% {box-shadow :0 0 10px 10px white }
+   
+
+
+}
+
+
+.zh2{
+
+    border: 5px solid rgb(0, 155, 255);
+    animation: zhiwar 3s infinite;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+
+}
+
+.zh3{
+    background-color: rgb(0, 155, 255);
+    animation: zhika 3s infinite;  
+    color: white;
+    border: 3px solid white;
+    border-radius: 100%;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+
+.zh4{
+
+    animation: zhika 3s infinite;
+    
+    border-radius: 13px;
+    background-color: rgb(0, 155, 255);
+    color: white;
+    
+    font-size: 35px;
+
+    
+
+
+}
+
+
+
+
+
+
+
+@keyframes snapchat{
+
+
+    0% {box-shadow: 0 0 10px 10px yellow;}
+    10% {box-shadow: 0 0 10px 10px yellow ;}
+    20% {box-shadow: 0 0 10px 10px yellow ;}
+    30% {box-shadow: 0 0 10px 10px  yellow ;}
+    40% {box-shadow: 0 0 10px 10px yellow;}
+    50% {box-shadow: 0 0 10px 10px  yellow ;}
+    60% {box-shadow: 0 0 10px 10px yellow ;}
+    70% {box-shadow: 0 0 10px 10px  yellow ;}
+    80% {box-shadow: 0 0 10px 10px  yellow ;}
+    90% {box-shadow: 0 0 10px 10px yellow  ;}
+    100% {box-shadow: 0 0 10px 10px  yellow ;}
+
+    
+}
+
+
+.snapchat{
+
+    
+    border-radius: 100%;
+
+    animation: snapchat 3s infinite;
+}
+
+@keyframes facebook{
+
+
+    0% {box-shadow: 0 0 10px 10px blue;}
+    10% {box-shadow: 0 0 10px 10px blue ;}
+    20% {box-shadow: 0 0 10px 10px  blue ;}
+    30% {box-shadow: 0 0 10px 10px  blue ;}
+    40% {box-shadow: 0 0 10px 10px  blue;}
+    50% {box-shadow: 0 0 10px 10px  blue ;}
+    60% {box-shadow: 0 0 10px 10px  blue ;}
+    70% {box-shadow: 0 0 10px 10px  blue ;}
+    80% {box-shadow: 0 0 10px 10px   blue ;}
+    90% {box-shadow: 0 0 10px 10px blue  ;}
+    100% {box-shadow: 0 0 10px 10px   blue ;}
+
+    
+}
+
+
+.facebook{
+
+    border-radius: 100%;
+    animation: facebook 3s infinite;
+}
+
+@keyframes map{
+
+
+    0% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    20% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 10px 10px whirgb(0, 155, 255)te }
+    40% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    60% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 10px 10px rgb(0, 155, 255)}
+    80% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+    100% {box-shadow :0 0 10px 10px rgb(0, 155, 255) }
+   
+    
+}
+
+
+.map{
+
+
+    border-radius: 100%;
+    animation: map 3s infinite;
+
+
+}
+
+
+@keyframes tiktok{
+
+
+    0% {box-shadow: 0 0 10px 10px rgb(65, 0, 125);}
+    10% {box-shadow: 0 0 10px 10px rgb(65, 0, 125) ;}
+    20% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125) ;}
+    30% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125) ;}
+    40% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125);}
+    50% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125) ;}
+    60% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125) ;}
+    70% {box-shadow: 0 0 10px 10px  rgb(65, 0, 125) ;}
+    80% {box-shadow: 0 0 10px 10px   rgb(65, 0, 125) ;}
+    90% {box-shadow: 0 0 10px 10px rgb(65, 0, 125)  ;}
+    100% {box-shadow: 0 0 10px 10px   rgb(65, 0, 125);}
+}
+
+
+.tiktok{
+
+    
+    border-radius: 100%;
+    animation: tiktok 3s infinite;
+}
+
+
+@keyframes instagram{
+
+
+    0% {box-shadow: 0 0 10px 10px rgb(255, 0, 242);}
+    10% {box-shadow: 0 0 10px 10px rgb(255, 0, 242) ;}
+    20% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242) ;}
+    30% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242);}
+    40% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242);}
+    50% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242) ;}
+    60% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242) ;}
+    70% {box-shadow: 0 0 10px 10px  rgb(255, 0, 242) ;}
+    80% {box-shadow: 0 0 10px 10px   rgb(255, 0, 242) ;}
+    90% {box-shadow: 0 0 10px 10px rgb(255, 0, 242) ;}
+    100% {box-shadow: 0 0 10px 10px   rgb(255, 0, 242);}
+    
+}
+
+
+.instagram{
+
+    border-radius: 100%;
+    animation: instagram 3s infinite;
+
+}
