@@ -1,5 +1,8 @@
 body{
 
+    margin: 200px 450px;
+    width: 731px;
+    height: 1280px;
     background-image: url(11.jpg);
     display: flex;
     justify-content: center;
@@ -33,10 +36,7 @@ body{
 
 .a1{
 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+   
     animation: kuku 3s infinite;
     font-size: 30px;
     border: 3px solid white ;
