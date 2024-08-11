@@ -35,7 +35,7 @@ body{
 
 .a1{
 
-   
+    background: transparent;
     animation: kuku 3s infinite;
     font-size: 30px;
     border: 3px solid white ;
@@ -43,7 +43,7 @@ body{
     width: 450px;
     height: 710px;
     backdrop-filter: blur(25px);
-    margin-top: 40px;
+    margin: 40px 50px;
 
 
 }
