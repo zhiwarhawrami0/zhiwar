@@ -1,8 +1,7 @@
 body{
 
     margin: auto;
-    width: 550px;
-    height: 800px;
+    
     background-image: url(11.jpg);
     display: flex;
     justify-content: center;
@@ -41,19 +40,41 @@ body{
     font-size: 30px;
     border: 3px solid white ;
     border-radius: 25px;
-    width: 450px;
-    height: 710px;
-    backdrop-filter: blur(25px);
+    width: 350px;
+    height: 600px;
+    backdrop-filter: blur(15px);
     margin: 40px 50px;
 
 
 }
 
-.a2{
+@keyframes kuku1{
 
-    margin: 0 -5%;
-    color: rgba(0, 0, 0, 0);
+    0% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+    10% {box-shadow :0 0 5px 5px white }
+    20% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+    30% {box-shadow :0 0 5px 5px white }
+    40% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+    50% {box-shadow :0 0 5px 5px white }
+    60% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+    70% {box-shadow :0 0 5px 5px white}
+    80% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+    90% {box-shadow :0 0 5px 5px white }
+    100% {box-shadow :0 0 5px 5px rgb(0, 155, 255) }
+   
+
+
+}
+
+.a3{
+
     
+    color: rgba(255, 255, 255, 0);
+   background-color: rgb(0, 155, 255);
+    font-size: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    animation: kuku1 3s infinite;
 
 
 }
@@ -80,7 +101,7 @@ body{
 
 .zh1{
  
-    font-size: 35px;
+    font-size: 32px;
     background-color: rgb(0, 155, 255);
     animation: zhika 3s infinite;  
     color: white;
@@ -116,8 +137,8 @@ body{
     border: 5px solid rgb(0, 155, 255);
     animation: zhiwar 3s infinite;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     text-align: center;
 
 }
@@ -129,7 +150,7 @@ body{
     border: 3px solid white;
     border-radius: 100%;
     color: white;
-    font-size: 35px;
+    font-size: 27px;
 
 
 }
@@ -143,7 +164,7 @@ body{
     background-color: rgb(0, 155, 255);
     color: white;
     
-    font-size: 20px;
+    font-size: 18px;
 
     
 
@@ -177,11 +198,7 @@ body{
 
 .snapchat{
 
-    
-    border-radius: 100%;
-
-    animation: snapchat 3s infinite;
-}
+ 
 
 @keyframes facebook{
 
