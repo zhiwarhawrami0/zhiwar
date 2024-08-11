@@ -33,16 +33,16 @@ body{
 
 .a1{
 
-    margin-left: 100px;
-    margin-right: 150px;
+    margin-left: 170px;
+    margin-right: 130px;
     margin-top: 150px;
     margin-bottom: 100px;
     animation: kuku 3s infinite;
     font-size: 30px;
     border: 3px solid white ;
     border-radius: 25px;
-    width: 600px;
-    height: 870px;
+    width: 450px;
+    height: 710px;
     backdrop-filter: blur(25px);
 
 
@@ -79,7 +79,7 @@ body{
 
 .zh1{
  
-    font-size: 45px;
+    font-size: 35px;
     background-color: rgb(0, 155, 255);
     animation: zhika 3s infinite;  
     color: white;
@@ -115,8 +115,8 @@ body{
     border: 5px solid rgb(0, 155, 255);
     animation: zhiwar 3s infinite;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     text-align: center;
 
 }
@@ -128,7 +128,7 @@ body{
     border: 3px solid white;
     border-radius: 100%;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
 
 
 }
@@ -142,7 +142,7 @@ body{
     background-color: rgb(0, 155, 255);
     color: white;
     
-    font-size: 25px;
+    font-size: 20px;
 
     
 
