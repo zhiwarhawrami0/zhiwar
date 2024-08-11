@@ -1,8 +1,7 @@
 body{
 
-    margin: 200px 450px;
-    width: 731px;
-    height: 1280px;
+    margin: auto;
+    
     background-image: url(11.jpg);
     display: flex;
     justify-content: center;
@@ -44,6 +43,7 @@ body{
     width: 450px;
     height: 710px;
     backdrop-filter: blur(25px);
+    margin-top: 40px;
 
 
 }
