@@ -67,7 +67,7 @@ body{
     
    
     animation: mymove 3s infinite;
-    width: 715px;
+    width: 730px;
     height: 1245px;
     background: transparent;
     border: 4px solid white;
@@ -175,9 +175,9 @@ body{
    
 }
 .icons{
-    margin: 0 -6%;
+    margin: 0 -5%;
     
-    width: 715px;
+    width: 725px;
 }
 .shadow{
     margin-left: auto;
