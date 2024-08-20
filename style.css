@@ -239,8 +239,10 @@ body{
     animation: zhika 3s infinite;
     color: white;
     font-size: 65px;
-    width: 565px;
+    width: 552px;
     margin-left:60px ;
+    
+
     
 }
 
@@ -259,13 +261,14 @@ body{
 
 .kuku1{
 
-    animation: zhiwar 3s infinite;
+    
+    animation: zhiwar  3s infinite;
     background-color: white;
     border-radius: 10px;
-    width: 620px;
+    width: 525px;
     color: black;
     font-size: 40px;
-    margin-left: 35px;
+    margin-left: 75px;
     
 }
 
